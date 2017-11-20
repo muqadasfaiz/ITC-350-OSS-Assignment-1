@@ -1,3 +1,4 @@
+# Muqadas Faiz
 # ITC-350-OSS-Assignment-1
 
 Describe how you implemented the gradingSystem.sh script. In particular, briefly discuss:
