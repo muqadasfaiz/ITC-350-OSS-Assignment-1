@@ -27,8 +27,8 @@ c) Since the VERBOSE variables in BASH script are unset/off by default, there wa
 
 d) Conditions are carried out in a way to either return true in which case the program will continue to the next phase or will return a false value in which case the program will terminate.
 
-e) The input are received by promting the user by echoing and the then storing the user input to a varialbe by utilizing the built-in 'read' function in Shell Script.
+e) The input are received by promting the user by echoing and the then storing the user input to a variable by utilizing the built-in 'read' function in Shell Script.
 
-f) The input of different data types are carefully handled by defining precise conditions to only allow the input of the desired data types. If the user enters a data type other than the allowed data types, the user will be prompted to renter a valid data type. This is handled by utilizing while loops to make sure the conditions are met no matter how many times the user inputs the wrong the data type.
+f) The input of different data types are carefully handled by defining precise conditions to only allow the input of the desired data types. If the user enters a data type other than the allowed data types, the user will be prompted to re-enter a valid data type. This is handled by utilizing while loops to make sure the conditions are met no matter how many times the user inputs the wrong the data type.
 
 g) Just run the gradingSystem.sh script and enter the required data as prompted. The newly entered data will be automatically saved to the OSSGrades.csv file while preserving the already stored data if any. If the file does not exist, it will be added created and then the data will be saved in it.
